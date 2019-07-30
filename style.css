@@ -1,0 +1,103 @@
+header > h6 > fn {
+    background-color: #f0ed46;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 90%;
+    margin: auto;
+    background-image: linear-gradient(grey, #93a09e, white);
+    /*background-image: url("https://images.unsplash.com/photo-1544780785-488675786c44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    color: #193243;
+}
+
+q {
+    font-style: italic;
+    font-size: 160%;
+    background-color: #CCCCCC;
+    border-left: 3px solid;
+    padding-left: 30px;
+}
+
+a:hover {
+    color: #23868b;
+}
+
+a:visited {
+    color: #c09337;
+}
+
+main {
+    border-bottom: 2px solid;
+}
+
+.story {
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.conclusion {
+    border-bottom: 2px solid;
+}
+
+.villagers {
+    border-left: solid #e94d47;
+}
+
+.farmer {
+    border-left: solid #73e982;
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+    font-weight: normal;
+}
+
+.bad {
+    text-transform: capitalize;
+    color:red;
+    font-weight: normal;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+p:nth-of-type(1){
+    font-weight: bold;
+}
+
+img {
+    height: 400px;
+    display: inline-block;
+    float: left;
+    margin-right: 5em;
+}
+
+.notification{
+    position:fixed;
+    bottom: -4px;
+    right: 10px;
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    /* rajoute le code nécessaire ici*/
+}
