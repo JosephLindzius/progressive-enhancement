@@ -44,8 +44,8 @@ main {
     margin: auto;
     width: 50%;
     text-align: justify;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .conclusion {
@@ -84,11 +84,16 @@ tr:nth-child(even) {
     font-weight: bold;
 }
 
-img {
-    height: 400px;
+figure {
     display: inline-block;
     float: left;
     margin-right: 2em;
+    border: inset;
+    background-color: #CCCCCC;
+}
+
+img {
+    height: 400px;
 }
 
 .notification{
@@ -106,6 +111,11 @@ img {
 
 caption {
     caption-side: bottom;
+}
+
+figcaption {
+    clear: none;
+    padding: 5px;
 }
 
 ul > li {
